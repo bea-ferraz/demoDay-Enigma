@@ -8,5 +8,5 @@ import cipher from './cipher.js';
 //     alert(`Até a próxima.`)
 //
 
-console.log(cipher.encode(offset, "ola"))
+console.log(cipher.decode(33, "hijklmnopqrstuvwxyzabcdefg"))
 

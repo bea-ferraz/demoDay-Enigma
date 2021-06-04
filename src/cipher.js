@@ -1,35 +1,38 @@
-const cipher = { 
-    //= string.charCodeAt(i) - 65 + offset % 26 + 65
-    //  mensage = String.fromCharCode(crypt = string.charCodeAt(i))
-
-   encode: function encode(offset, string) {
-     let mensage = "";
+const cipher = {
+ 
+  encode: function encode(offset, string) {
+    let mensage = ""
 
     for (let i = 0; i < string.length; i++) {
-        let crypt = string.charCodeAt(i) + offset 
-          while (crypt = string.charCodeAt(i) >= 65 && crypt <= 90 ) {
-          crypt = string.charCodeAt(i) - 65 + offset % 26  + 65
-        } 
-        mensage(String.fromCharCode(crypt)) 
-     }
-     return mensage
- },
+      let crypt = string.charCodeAt(i) 
+      if (crypt >= 65 && crypt <= 90)
+       crypt = ((crypt - 65 + offset) % 26) + 65
 
-    decode : function ( offset, string){ 
-        let response = "";  
-        // é um [] no let ??
-            for (let i = 0; i < string.length; i++) {
-            let decode = string.fromCharCode(i) - offset
-            while (decode = 90) {
-                decode = string.fromCharCode(response)
-            }
-        }
-        return response
+      else if(crypt >= 97 && crypt <= 122) 
+       crypt = ((crypt - 97 + offset) % 26) + 97
+
+      mensage += String.fromCharCode(crypt)
     }
-    
-};
-      
+    return mensage
+  },
 
-  
+  decode: function (offset, string) {
+    let response = ""
+
+    for (let i = 0; i < string.length; i++) {
+      let decode = string.charCodeAt(i) 
+      if (decode >= 65 && decode <= 90) 
+        decode = 90-((90 - decode + offset) % 26);
+
+      else if(decode >= 97 && decode <= 122) 
+        decode = 122-((122 - decode + offset) % 26);
+      
+      response += String.fromCharCode(decode)
+    }
+    return response
+  }
+
+};
+
 export default cipher;
 
