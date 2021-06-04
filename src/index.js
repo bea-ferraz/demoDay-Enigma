@@ -1,3 +1,12 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+// const pergunta = window.prompt('Olá, você deseja participar da pesquisa?')
+
+// if (pergunta == 'sim') { 
+//     alert(`Obrigada!`)
+// } else {
+//     alert(`Até a próxima.`)
+//
+
+console.log(cipher.encode(offset, "ola"))
+

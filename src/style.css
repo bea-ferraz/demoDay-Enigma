@@ -1,1 +1,9 @@
-/* css */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #504b4b
+}
+
+.mensagem-prosseguir {
+    color: #504b4b;
+}
+
