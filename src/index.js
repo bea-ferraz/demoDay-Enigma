@@ -1,12 +1,13 @@
 import cipher from './cipher.js';
 
-// const pergunta = window.prompt('Olá, você deseja participar da pesquisa?')
+ const pergunta = window.prompt('Olá, você deseja participar da pesquisa?')
 
-// if (pergunta == 'sim') { 
-//     alert(`Obrigada!`)
-// } else {
-//     alert(`Até a próxima.`)
-//
+ if (pergunta == 'sim') { 
+     alert(`Obrigada!`)
+    document.getElementById('msg-confirmacao').innerHTML = "Digite sua mensagem"
+ } else {
+     alert(`Até a próxima.`)
+ }
 
-console.log(cipher.decode(33, "hijklmnopqrstuvwxyzabcdefg"))
+console.log(cipher)
 
