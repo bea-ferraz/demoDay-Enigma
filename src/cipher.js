@@ -35,7 +35,3 @@ const cipher = {
 };
 
 export default cipher;
-
-// formula do video ((codLetraASC - cod1letra + offset) % tamanho do alfabeto=== 26) + cod1letra
-// posso deixar a condição for vazia? 
-// decode: dá pra usar o toLowerCase() ?  

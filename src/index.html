@@ -15,15 +15,13 @@
 
     <form action="">
       <div>
-        <!-- <div id="msg-confirmacao"></div> -->
-        <textarea id="msg"></textarea>
+        <textarea id="codificar" name="cipher" type="text"></textarea>
+      </div>
+      <div>
+        <textarea id="descodificar" name="cipher" type="text"></textarea>
       </div>
       <div>
         <input id="offset" type="number" name="offset" value="0">
-      </div>
-      <div>
-        <textarea id="code" name="cipher" type="text" placeholder="Digite a mensagem codificada."
-          wrap="soft"></textarea>
       </div>
       <div>
         <button id="crypt" type="submit" onclick="encode()">Criptografar</button>

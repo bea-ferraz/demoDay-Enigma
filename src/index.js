@@ -1,36 +1,33 @@
 import cipher from './cipher.js';
 
-document.getElementById("crypt").onclick = 
 
-function encode() {
-   const codButtons = document.getElementById("crypt")
+document.getElementById("crypt").onclick =
 
-     const offset = (document.getElementById("offset").value)
-     let string = (document.getElementById("msg").value)
+  function encode() {
+    const encodeButton = document.getElementById("crypt")
 
-     let result = cipher.encode(offset, string)
+    const offset = (document.getElementById("offset").value)
+    let string = document.getElementById("codificar").value
 
-     document.getElementById("code").value = result
-   codButtons.addEventListener("click", encode)
-  
- } 
+    let encodeCipher = cipher.encode(offset, string)
 
+    document.getElementById("descodificar").value = encodeCipher
+    encodeButton.addEventListener("click", encode)
+  }
 
-document.getElementById("decrypt").onclick = 
+document.getElementById("decrypt").onclick =
 
-function decode() {
-  
-const decodButtons = document.getElementById("decrypt")
+  function decode() {
+    const decodeButton = document.getElementById("decrypt")
 
-     const offset = (document.getElementById("offset").value)
-     let string = (document.getElementById("code").value)
+    const offset = (document.getElementById("offset").value)
+    let string = document.getElementById("descodificar").value
 
-     let resultDec = cipher.encode(offset, string)
+    let decodeCipher = cipher.decode(offset, string)
 
-     document.getElementById("msg").value = resultDec
-   decodButtons.addEventListener("click", decode)
-  
- } 
+    document.getElementById("codificar").value = decodeCipher 
+    decodeButton.addEventListener("click", decode)
+  }
 
 
 
