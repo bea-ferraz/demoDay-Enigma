@@ -1,13 +1,36 @@
 import cipher from './cipher.js';
 
- const pergunta = window.prompt('Olá, você deseja participar da pesquisa?')
+document.getElementById("crypt").onclick = 
 
- if (pergunta == 'sim') { 
-     alert(`Obrigada!`)
-    document.getElementById('msg-confirmacao').innerHTML = "Digite sua mensagem"
- } else {
-     alert(`Até a próxima.`)
- }
+function encode() {
+   const codButtons = document.getElementById("crypt")
 
-console.log(cipher)
+     const offset = (document.getElementById("offset").value)
+     let string = (document.getElementById("msg").value)
+
+     let result = cipher.encode(offset, string)
+
+     document.getElementById("code").value = result
+   codButtons.addEventListener("click", encode)
+  
+ } 
+
+
+document.getElementById("decrypt").onclick = 
+
+function decode() {
+  
+const decodButtons = document.getElementById("decrypt")
+
+     const offset = (document.getElementById("offset").value)
+     let string = (document.getElementById("code").value)
+
+     let resultDec = cipher.encode(offset, string)
+
+     document.getElementById("msg").value = resultDec
+   decodButtons.addEventListener("click", decode)
+  
+ } 
+
+
 

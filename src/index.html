@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
@@ -7,24 +8,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <section>
     <h1>Aqui respeitamos o seu anonimato!</h1>
-    
+
     <form action="">
-        <div>
-          <div id="msg-confirmacao"></div>
-          <textarea id="msg"></textarea>
-       </div>
-        <div class="button" id="encode" onclick="">
-            <button type="submit">Criptografar</button>
-        </div>
-        <div class="button" id="decode" onclick="">
-          <button type="submit">Descriptografar</button>
-        </div>
-    </form> 
+      <div>
+        <!-- <div id="msg-confirmacao"></div> -->
+        <textarea id="msg"></textarea>
+      </div>
+      <div>
+        <input id="offset" type="number" name="offset" value="0">
+      </div>
+      <div>
+        <textarea id="code" name="cipher" type="text" placeholder="Digite a mensagem codificada."
+          wrap="soft"></textarea>
+      </div>
+      <div>
+        <button id="crypt" type="submit" onclick="encode()">Criptografar</button>
+      </div>
+      <div>
+        <button id="decrypt" type="submit" onclick="decode()">Descriptografar</button>
+      </div>
+    </form>
   </section>
 
   <script src="index.js" type="module"></script>
 </body>
+
 </html>

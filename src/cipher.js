@@ -16,7 +16,7 @@ const cipher = {
     return mensage
   },
 
-  decode: function (offset, string) {
+  decode: function decode(offset, string) {
     let response = ""
 
     for (let i = 0; i < string.length; i++) {
