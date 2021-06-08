@@ -11,25 +11,24 @@
 
 <body>
   <section>
-    <h1>Aqui respeitamos o seu anonimato!</h1>
-
-    <form action="">
-      <div>
-        <textarea id="cod" name="cipher" type="text"></textarea>
-      </div>
-      <div>
+    <h1>Um novo modo de criar suas senhas.</h1>
+      <form action="">
         <div>
-          <textarea id="encod" name="cipher" type="text"></textarea>
+          <textarea id="cod" name="cipher" type="text"></textarea>
         </div>
-        <input id="offset" type="number" name="offset">
-      </div>
-      <div>
-        <button id="crypt" type="submit" onclick="encode()">Criptografar</button>
-      </div>
-      <div>
-        <button id="decrypt" type="submit" onclick="decode()">Descriptografar</button>
-      </div>
-    </form>
+        <div>
+          <div>
+            <textarea id="encod" name="cipher" type="text"></textarea>
+          </div>
+          <input id="offset" type="number" name="offset">
+        </div>
+        <div>
+          <button id="crypt" type="submit" onclick="encode()">Criptografar</button>
+        </div>
+        <div>
+          <button id="decrypt" type="submit" onclick="decode()">Descriptografar</button>
+        </div>
+      </form>
   </section>
 
   <script src="index.js" type="module"></script>
