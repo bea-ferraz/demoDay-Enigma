@@ -1,21 +1,32 @@
 body {
-    font-family: 'Inter', sans-serif;
-    color: #f0e9e9;
-    background-image: url(./images/pexels-kampus-production-8201155.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   font-family: 'Inter', sans-serif;
+   background-image: url(./images/pexels-kampus-production-8201155.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 h1 {
-    font-size: 30px;
+  color: #f0e9e9;
+  font-size: 30px;
+}
+
+h2 {
+  color: #f0e9e9;
+  font-size: 24px;
+}
+
+p {
+  color: #f0e9e9;
+  font-size: 18px;
+  font-weight: solid;
 }
 
 button {
-    font-family: 'Inter', sans-serif;
-    color: #302727;
-    font-weight: solid;
-    border-radius: 7px;
+  font-family: 'Inter', sans-serif;
+  color: #302727;
+  font-weight: solid;
+  border-radius: 7px;
 }
 
 
-
+/* #f0e9e9 */
