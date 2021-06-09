@@ -14,30 +14,31 @@
     <h1>Um novo modo de criar suas senhas</h1>
     <form action="">
       <h2>Bem-vindo ao SenhaFácil</h2>
-      <div class="teste">
-        <p>Agora é póssivel você criar uma senha criptografada a
-          a partir de uma palavra qualquer. <br/>Para criptografar click no botão criptografar, para voltar na palavra que
-          e/scolheceu,<br/>basta dar um click em descriptografar. É necessário escolher um número de deslocamento<br/> para sua senha,
-          o uso de
-          caracteres maiúsculas e minúsculas devem ser utilizados.<br/>Divirta-se!</p>
+      <div class="exp-texto">
+        <p>Agora é póssivel você criar uma senha criptografada apartir de uma palavra qualquer. Para criptografar click
+          no botão criptografar, para voltar na palavra que
+          você scolheceu, basta clicar em descriptografar. É necessário escolher um número de deslocamento para sua
+          senha, o uso de caracteres maiúsculas e minúsculas devem ser utilizados. Divirta-se!</p>
       </div>
       <p></p>
-      <textarea id="cod" name="cipher" type="text" placeholder="Insira a palavra escolhida"></textarea>
       <div>
-        <div>
-          <p>Selecione o número de deslocamento</p>
-          <input id="offset" type="number" name="offset">
+        <div class="palavra-escolhida">
+          <textarea id="cod" name="cipher" type="text" placeholder="Insira a palavra escolhida"></textarea>
         </div>
-        <div>
-          <p>SenhaFácil:</p>
-          <textarea id="encod" name="cipher" type="text" placeholder="Sua senha criptografada"></textarea>
+        <!-- <p>Selecione o número de deslocamento</p> -->
+        <div class="deslocamento">
+          <input id="offset" type="number" name="offset" placeholder="Nº de deslocamento">
         </div>
-        <div>
-          <button id="crypt" type="submit" onclick="encode()">Criptografar</button>
+        <!-- <p>SenhaFácil:</p> acho que não precisa dessa classe -->
+        <div class="senha-facil">
+          <textarea id="encod" name="cipher" type="text" placeholder="Sua SenhaFácil"></textarea>
         </div>
-        <div>
-          <button id="decrypt" type="submit" onclick="decode()">Descriptografar</button>
-        </div>
+      </div>
+
+      <div class="botoes">
+        <button id="crypt" type="submit" onclick="encode()">Criptografar</button>
+        <button id="decrypt" type="submit" onclick="decode()">Descriptografar</button>
+      </div>
     </form>
   </section>
 
