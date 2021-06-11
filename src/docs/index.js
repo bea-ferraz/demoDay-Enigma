@@ -1,6 +1,5 @@
 import cipher from './cipher.js';
 
-
 document.getElementById("crypt").onclick =
 
   function encode(e) {
@@ -17,6 +16,7 @@ document.getElementById("crypt").onclick =
     encodeButton.addEventListener("click", encode)
   }
 
+  
 document.getElementById("decrypt").onclick =
 
   function decode(e) {

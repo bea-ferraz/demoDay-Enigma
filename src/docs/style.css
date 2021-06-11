@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .exp-texto {
@@ -20,11 +20,11 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
-.palavra-escolhida , .deslocamento {
-  margin-bottom: 1.5%;
+.palavra-escolhida , .deslocamento , .senha-facil {
+  margin-bottom: 1.2%;
 }
 
  textarea , input {
@@ -32,23 +32,20 @@ p {
   /* background-color: #867d7d;  */
   border-radius: 5px;
   width: 25%;
-  height: 20px;
+  height: 25px;
   border: none;
-  resize: none;
 } 
 
 button {
   font-family: 'Inter', sans-serif;
+  border: none;
   color: #867d7d;
   border-radius: 5px;
-  border: none;
+  height: 30px;
 }
 
 .botoes {
   display: inline-block;
-  
-  
-
 }
 
 
