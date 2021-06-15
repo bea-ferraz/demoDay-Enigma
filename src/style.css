@@ -1,11 +1,42 @@
 body {
    font-family: 'Inter', sans-serif;
-   background-image: url(./images/tiozinho.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
    color: #f0e9e9;
    padding: 5%;
+   animation: banner 40s infinite;
+   animation-direction: alternate;
 }
+
+  @keyframes banner {
+    0%, 20% {
+      background-image: url(./images/sr.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    25%, 40% {
+      background-image: url(./images/senhora.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    45%, 60% {
+      background-image: url(./images/senhor.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    65%, 80% {
+      background-image: url(./images/sra.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    85%, 100% {
+      background-image: url(./images/cel.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
 
 h1 {
   font-size: 1.875rem;
@@ -27,14 +58,13 @@ p {
   margin-bottom: 1.2%;
 }
 
- textarea , input {
+textarea , input {
   font-family: 'Inter', sans-serif;
   border-radius: 5px;
   width: 25%;
   height: 25px;
   font-size: 1.125rem;
   border: none;
-
 } 
 
 button {
