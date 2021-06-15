@@ -74,38 +74,3 @@ export default cipher;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // switch (crypt) {
-        //   case 33:
-        //     console.log("crypt")
-        //     break;
-        //    case 'pontos':
-        //      crypt >= 91 && crypt <= 96;
-        //      break;
-        //   crypt = ((crypt - 123 + offsetNumber) % 26) + 123;
-        // }
-
-          // switch (decode) {
-        //   case 33:
-        //     console.log("teste")
-        //   case 'pontos':
-        //      decode >= 91 && decode <= 96;
-        //      break;
-        // }
