@@ -1,11 +1,32 @@
 body {
-   font-family: 'Inter', sans-serif;
-   animation: banner 40s infinite;
-   animation-direction: alternate;
-   color: #f0e9e9;
-   padding: 5%;
+  font-family: 'Inter', sans-serif;
+  /* animation: banner 40s infinite; */
+  /* animation-direction: alternate; */
+  padding: 5%;
 }
 
+@media (min-width: 360px) {
+ #ajuda {
+   background-color: #d89494;
+   margin: 0px; 
+   padding: 0px;
+ }
+
+ h3 {
+   font-size: 4rem;
+ }
+  
+ p {
+  font-size: 3rem;
+ }
+
+ li {
+  font-size: 2rem;
+ }
+
+}
+
+/* 
   @keyframes banner {
     0%, 20% {
       background-image: url(./images/sr.jpg);
@@ -36,7 +57,7 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
     }
-  }
+  } */
 
 h1 {
   font-size: 1.875rem;
@@ -49,10 +70,10 @@ h2 {
 .exp-texto {
   width: 50%;
 }
-
+/* 
 p {
   font-size: 1.125rem;
-}
+} */
 
 .palavra-escolhida , .deslocamento , .senha-facil {
   margin-bottom: 1.2%;
