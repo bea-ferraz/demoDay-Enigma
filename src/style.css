@@ -3,11 +3,31 @@
 }
 
 body {
-   font-family: 'Inter', sans-serif;
-   animation: banner 40s infinite;
-   animation-direction: alternate;
-   color: #f0e9e9;
-   padding: 5%;
+  font-family: 'Inter', sans-serif;
+  /* animation: banner 40s infinite; */
+  /* animation-direction: alternate; */
+  padding: 5%;
+}
+
+@media (min-width: 360px) {
+ #ajuda {
+   background-color: #d89494;
+   margin: 0px; 
+   padding: 0px;
+ }
+
+ h3 {
+   font-size: 4rem;
+ }
+  
+ p {
+  font-size: 3rem;
+ }
+
+ li {
+  font-size: 2rem;
+ }
+
 }
 #menu {
   display: flex;
