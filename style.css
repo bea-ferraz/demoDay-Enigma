@@ -1,46 +1,257 @@
-#titulo{
-  background-image: linear-gradient(to left, rgb(231, 51, 150), rgb(248, 230, 127));
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap');
+
+
+* {
+  margin: 0;
+  /*padding: 2;*/
+  box-sizing: border-box;
+  font-family: Gill Sans, sans-serif;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  /* animation: banner 40s infinite; */
-  /* animation-direction: alternate; */
-  padding: 5%;
+  font-size: 50px;
+  text-align: justify;
 }
 
-@media (min-width: 360px) {
- #ajuda {
-   background-color: #d89494;
-   margin: 0px; 
-   padding: 0px;
- }
-
- h3 {
-   font-size: 4rem;
- }
-  
- p {
-  font-size: 3rem;
- }
-
- li {
-  font-size: 2rem;
- }
-
-}
-#menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-family: sans-serif;
-  font-size: 1.875rem;
-  background-color: rgb(248, 230, 127);
-  
+.mySlides {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  filter: brightness(50%);
 }
 
 h1 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.875rem;
   background-color: #867d81;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #0c2345;;
+  text-decoration-thickness: 5px;
+  font-family: Gill Sans, sans-serif;
+  margin-bottom: 1rem;
+  background-color: #adbdbe;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#titulo {
+  background-color: #fff; 
+  font-family: Gill Sans, sans-serif;
+  color: #0c2345;
+  font-size: 6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.image {
+  margin-left: 25%;
+}  
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  font-size: 2rem;
+  background-color:#adbdbe;
+  color: #0c2345;
+  height: 80px;
+}
+
+.convite{
+  font: #18606f;
+  text-align: center ;
+  font-size: 2rem;
+}
+
+.container-sobre {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+.description {
+  font-size: 3rem;
+  font-family: 'Andika New Basic', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#li {
+  list-style-type: disc;
+  margin-right: 20px;
+}
+
+.fontSize3 {
+  font-size: 2rem;
+  color: #0c2345;
+}
+
+.titleHelp {
+  text-transform: uppercase;
+}
+
+.titleHelp, .titleQuestions, .question {
+  color: #0c2345;
+}
+
+.question {
+border-bottom: 1px solid #b39592;;
+padding: 10px 0
+}
+
+.question input,
+.question .answer { display: none }
+
+.question label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 35px;
+}
+
+.question input:checked ~ .answer {
+  display: block
+}
+
+#ajuda { 
+  background: linear-gradient(to top, #959797, #adbdbe, #fff);
+  margin: 0px; 
+  padding: 0px;
+}
+
+.menuLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0c2345;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.menuLink:hover {
+color:#973427;
+}
+
+.answer {
+  font-size: 24px;
+}
+
+
+.container-sobre {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+#intro {
+  position: absolute;
+  top: 400px;
+  color:aliceblue;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center ;
+  flex-wrap: wrap;
+  background-color: rgba(43, 42, 42, 0);
+  width: 80%;
+  left: 90px;
+}
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #adbdbe;
+  color: black;
+  text-align: center;
+}
+
+.contato-equipe {
+  display: inline-flex;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0c2345;
+}
+
+.socialMedia {
+  display: inline-flex;
+  text-decoration: none;
+  text-align: center;
+  margin: -12px;
+  color: #ffff;
+  padding: 14px 16px;
+}
+
+textarea, input {
+  width: 60%;
+  height: 4rem;
+  border-radius: 5px;
+  border: 3px solid #0c2345;
+  margin: 1rem auto;
+  font-size: 2rem;
+  background-color: #adbdbe;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btnCreatePassword {
+  width: 350px;
+  height: 5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #18606f;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: #adbdbe;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+#decrypt {
+  background-color: #9a857d;
+  color: black;
+}
+
+.createPassword {
+  position: relative;
+}
+
+
+#copyButton {
+  height: 5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: #18606f;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: #adbdbe;
+  margin-right: 20px;
+  position: absolute;
+  top: 1030px;
+  right: 20px;
 }
