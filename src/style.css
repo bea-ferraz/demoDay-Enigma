@@ -52,30 +52,15 @@ body {
  h3 {
    font-size: 4rem;
  }
-<<<<<<< HEAD
-    
-  p {
-    font-size: 3rem;
-  }
+  
+ p {
+  font-size: 3rem;
+ }
 
-  li {
-    font-size: 2rem;
-  }
-
-  a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-  }
-
-  a:hover {
-  color:rgb(247, 8, 8);
-  }
-
-
-}
-
-.question {
+ li {
+  font-size: 2rem;
+ }
+ .question {
   border-bottom: 1px solid #ccc;
   padding: 10px 0
 }
@@ -93,15 +78,6 @@ body {
 .question input:checked ~ .answer {
   display: block
 }
-=======
-  
- p {
-  font-size: 3rem;
- }
-
- li {
-  font-size: 2rem;
- }
 
 }
 #menu {
@@ -119,4 +95,3 @@ h1 {
   font-size: 1.875rem;
   background-color: #867d81;
 }
->>>>>>> 9f0bbbc43adebdc56bbb3c7119096cf081b301a0
