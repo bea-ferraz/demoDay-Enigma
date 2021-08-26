@@ -1,37 +1,37 @@
-// import cipher from './cipher.js';
+import cipher from './cipher.js';
 
-// document.getElementById("crypt").onclick =
+document.getElementById("crypt").onclick =
 
-//   function encode(e) {
-//     e.preventDefault();
+  function encode(e) {
+    e.preventDefault();
 
-//     const offset = (document.getElementById("offset").value)
-//     let string = document.getElementById("cod").value
+    const offset = (document.getElementById("offset").value)
+    let string = document.getElementById("cod").value
 
-//     let encodeCipher = cipher.encode(offset, string)
+    let encodeCipher = cipher.encode(offset, string)
 
-//     document.getElementById("encod").value = encodeCipher
+    document.getElementById("encod").value = encodeCipher
    
-//     const encodeButton = document.getElementById("crypt")
-//     encodeButton.addEventListener("click", encode)
-//   }
+    const encodeButton = document.getElementById("crypt")
+    encodeButton.addEventListener("click", encode)
+  }
 
   
-// document.getElementById("decrypt").onclick =
+document.getElementById("decrypt").onclick =
 
-//   function decode(e) {
-//     e.preventDefault();
+  function decode(e) {
+    e.preventDefault();
     
-//     const offset = (document.getElementById("offset").value)
-//     let string = document.getElementById("encod").value
+    const offset = (document.getElementById("offset").value)
+    let string = document.getElementById("encod").value
 
-//     let decodeCipher = cipher.decode(offset, string)
+    let decodeCipher = cipher.decode(offset, string)
 
-//     document.getElementById("encod").value = decodeCipher 
+    document.getElementById("encod").value = decodeCipher 
 
-//     const decodeButton = document.getElementById("decrypt")
-//     decodeButton.addEventListener("click", decode)  
-//   }
+    const decodeButton = document.getElementById("decrypt")
+    decodeButton.addEventListener("click", decode)  
+  }
 
 
 let slideIndex = 0;
