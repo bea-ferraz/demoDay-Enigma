@@ -57,13 +57,13 @@ body {
      font-size: 1.5rem;
    }
  
-   a {
+   .menuLink {
      font-weight: bold;
      text-decoration: none;
      color: #000;
    }
  
-   a:hover {
+   .menuLink:hover {
    color:rgb(247, 8, 8);
    }
 
@@ -108,5 +108,28 @@ body {
     letter-spacing: 3px;
     line-height: 5rem;
     /* background-color: rgb(0, 0, 0, 0.5); */
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8f6863;
+    color: black;
+    text-align: center;
+  }
+  
+  .contato-equipe {
+    display: inline-flex;
+    margin-left: 20px;
+  }
+  
+  .socialMedia {
+    display: inline-flex;
+    text-decoration: none;
+    text-align: center;
+    margin: -12px;
+    color: #ffff;
+    padding: 14px 16px;
   }
 }
