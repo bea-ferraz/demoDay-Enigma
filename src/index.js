@@ -11,26 +11,26 @@ document.getElementById("crypt").onclick =
     let encodeCipher = cipher.encode(offset, string)
 
     document.getElementById("encod").value = encodeCipher
-   
+
     const encodeButton = document.getElementById("crypt")
     encodeButton.addEventListener("click", encode)
   }
 
-  
+
 document.getElementById("decrypt").onclick =
 
   function decode(e) {
     e.preventDefault();
-    
+
     const offset = (document.getElementById("offset").value)
     let string = document.getElementById("encod").value
 
     let decodeCipher = cipher.decode(offset, string)
 
-    document.getElementById("encod").value = decodeCipher 
+    document.getElementById("encod").value = decodeCipher
 
     const decodeButton = document.getElementById("decrypt")
-    decodeButton.addEventListener("click", decode)  
+    decodeButton.addEventListener("click", decode)
   }
   
   const copeButton = document.getElementById("copyButton");
@@ -51,8 +51,8 @@ function carousel() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
+  if (slideIndex > slides.length) { slideIndex = 1 }
+  slides[slideIndex - 1].style.display = "block";
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 
