@@ -32,7 +32,14 @@ document.getElementById("decrypt").onclick =
     const decodeButton = document.getElementById("decrypt")
     decodeButton.addEventListener("click", decode)  
   }
-
+  
+  const copeButton = document.getElementById("copyButton");
+  copeButton.onclick = function (e) {
+    e.preventDefault();
+    document.getElementById("encod").select();
+    document.execCommand("copy");
+  }
+  
 
 let slideIndex = 0;
 carousel();
