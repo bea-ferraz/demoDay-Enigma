@@ -18,7 +18,7 @@
 <body>
   <header>
     <h1 id="titulo">Safe</h1>
-           
+
     <section>
       <img class="mySlides" src="Image/Image1.jpeg">
       <img class="mySlides" src="Image/Image2.jpeg">
@@ -28,9 +28,9 @@
       <img class="mySlides" src="Image/Image7.jpeg">
       <img class="mySlides" src="Image/Image8.jpeg">
       <img class="mySlides" src="Image/Image9.jpeg">
-  
+
       <div id="intro">
-         Criamos senhas seguras para você 
+        Criamos senhas seguras para você
       </div>
       <div>
         <p class="convite"><i>Crie senhas de forma fácil</i></p>
@@ -44,15 +44,18 @@
       <a class="menuLink" href="#ajuda">Ajuda</a>
     </nav>
   </header>
-  
+
 
   <section class="fontSize3">
-       <div class="container-sobre">
-      <p class="description"><i>No mundo tecnológico em que vivemos, criar senhas seguras é     fundamental para proteger seus dados. Mas nem sempre conseguimos ser tão criativos, não é mesmo? Foi pensando nisso que criamos o <strong>Safe</strong>, um sistema de criptografia que tem como público alvo pessoas da melhor idade e visa atender essa necessidade de criar senhas originais de forma rápida e fácil!</i></p>
+    <div class="container-sobre">
+      <p class="description"><i>No mundo tecnológico em que vivemos, criar senhas seguras é fundamental para proteger
+          seus dados. Mas nem sempre conseguimos ser tão criativos, não é mesmo? Foi pensando nisso que criamos o
+          <strong>Safe</strong>, um sistema de criptografia que tem como público alvo pessoas da melhor idade e visa
+          atender essa necessidade de criar senhas originais de forma rápida e fácil!</i></p>
     </div>
   </section>
 
-  <section id="dicas" class="fontSize3 dicas">
+  <!-- <section id="dicas" class="fontSize3 dicas">
     <h2>DICAS DE SEGURANÇA</h2>
     <ul>
       <li>Nunca compartilhe sua senha com ninguém;</li>
@@ -70,9 +73,9 @@
       <li>Não passe seu numero de chave para ninguém;</li>
       <li>Salve sua senha e não passe para ninguém.</li>
     </ul>
-  </section>
+  </section> -->
 
-  <div id="faça-sua-senha" class="fontSize3">
+  <div id="faça-sua-senha" class="fontSize3 createPassword">
     <h2> FAÇA SUA SENHA </h2>
     <p> 1º - Escreva uma mensagem/palavra; </p>
     <p> 2º - Escolha um número de chave; (perguntas frequentes) </p>
@@ -84,13 +87,14 @@
       criptografar, escolha o mesmo deslocamento escolhido anteriormente e aparecerá a mensagem.</p>
 
     <form>
-     
-        <textarea id="cod" name="cipher" type="text" class="formField" placeholder="Insira a mensagem escolhida"></textarea>
-      
-        <input id="offset" type="number" class="formField" name="offset" placeholder="Nº de chave">
-      
-        <textarea id="encod" name="cipher" class="formField" type="text" placeholder="Senha criptografada"></textarea>
-  
+
+      <textarea id="cod" name="cipher" type="text" class="formField"
+        placeholder="Insira a mensagem escolhida"></textarea>
+
+      <input id="offset" type="number" class="formField" name="offset" placeholder="Nº de chave">
+
+      <textarea id="encod" name="cipher" class="formField" type="text" placeholder="Senha criptografada"></textarea>
+
       <div class="botoesBox">
         <button id="crypt" type="submit" class="btnCreatePassword" onclick="encode()">Criptografar</button>
         <button id="decrypt" type="submit" class="btnCreatePassword" onclick="decode()">Descriptografar</button>
@@ -98,59 +102,60 @@
 
       </div>
     </form>
+  </div>
 
-      <section id="ajuda" class="fontSize3">
-        <h2>Ajuda</h2>
-        <h3>Perguntas Frequentes</h3>
+  <section id="ajuda" class="fontSize3">
+    <h2>Ajuda</h2>
+    <h3>Perguntas Frequentes</h3>
 
-        <div class='question'>
-          <input type='checkbox' id='question-1'>
-          <label for='question-1'>É seguro?</label>
-          <div class='answer'>
-            Sim é seguro, o objetivo do nosso site é que você tenha acesso
-            seguro e individual para gerar suas senhas personalizadas e
-            utilizá-las simultaneamente.
-          </div>
-        </div>
+    <div class='question'>
+      <input type='checkbox' id='question-1'>
+      <label for='question-1'>É seguro?</label>
+      <div class='answer'>
+        Sim é seguro, o objetivo do nosso site é que você tenha acesso
+        seguro e individual para gerar suas senhas personalizadas e
+        utilizá-las simultaneamente.
+      </div>
+    </div>
 
-        <div class='question'>
-          <input type='checkbox' id='question-2'>
-          <label for='question-2'>Consigo recuperar a minha senha caso eu perca?</label>
-          <div class='answer'>
-            Não, o intuito do nosso sistema é para que os nossos usuários
-            possam gerar sua senha criptografada sem precisar armazenar as
-            informações no nosso site.
-          </div>
-        </div>
+    <div class='question'>
+      <input type='checkbox' id='question-2'>
+      <label for='question-2'>Consigo recuperar a minha senha caso eu perca?</label>
+      <div class='answer'>
+        Não, o intuito do nosso sistema é para que os nossos usuários
+        possam gerar sua senha criptografada sem precisar armazenar as
+        informações no nosso site.
+      </div>
+    </div>
 
-        <div class='question'>
-          <input type='checkbox' id='question-3'>
-          <label for='question-3'>Posso gerar mais de uma senha?</label>
-          <div class='answer'>
-            sim, você pode gerar quantas senhas preferir.
-          </div>
-        </div>
+    <div class='question'>
+      <input type='checkbox' id='question-3'>
+      <label for='question-3'>Posso gerar mais de uma senha?</label>
+      <div class='answer'>
+        sim, você pode gerar quantas senhas preferir.
+      </div>
+    </div>
 
-        <div class='question'>
-          <input type='checkbox' id='question-4'>
-          <label for='question-4'>Para que serve a criptografia?</label>
-          <div class='answer'>
-            A criptografia tem dois propósitos principais o primeiro é impedir
-            que dados armazenados sejam lidos e permitir que dados sejam
-            transmitidos de forma segura por um canal inseguro.
-          </div>
-        </div>
-        <div class='question'>
-          <input type='checkbox' id='question-5'>
-          <label for='question-5'>Como posso codificar e descodificar?</label>
-          <div class='answer'>
-            Você pode codificar uma mensagem simplesmente trocando cada letra
-            da mensagem presente no alfabeto padrão pela sua equivalente no
-            alfabeto cifrado. A decodificação é justamento o processo inverso.
-          </div>
-        </div>
-      </section>
-    </form>
+    <div class='question'>
+      <input type='checkbox' id='question-4'>
+      <label for='question-4'>Para que serve a criptografia?</label>
+      <div class='answer'>
+        A criptografia tem dois propósitos principais o primeiro é impedir
+        que dados armazenados sejam lidos e permitir que dados sejam
+        transmitidos de forma segura por um canal inseguro.
+      </div>
+    </div>
+    <div class='question'>
+      <input type='checkbox' id='question-5'>
+      <label for='question-5'>Como posso codificar e descodificar?</label>
+      <div class='answer'>
+        Você pode codificar uma mensagem simplesmente trocando cada letra
+        da mensagem presente no alfabeto padrão pela sua equivalente no
+        alfabeto cifrado. A decodificação é justamento o processo inverso.
+      </div>
+    </div>
+  </section>
+  </form>
   </div>
   <div>
     <img class="" src="Image/Image12.jpeg" style="width:100%">
@@ -205,7 +210,7 @@
           Tauana Pacheco
           <a href="https://www.linkedin.com/in/tauana-pacheco/" class="socialMedia" target="blank"><i
               class="fab fa-linkedin"></i></a>
-         <a href="https://github.com/Tauana-Pacheco" class="socialMedia" target="blank"><i
+          <a href="https://github.com/Tauana-Pacheco" class="socialMedia" target="blank"><i
               class="fab fa-github-square"></i></a>
         </li>
       </ul>
@@ -216,4 +221,5 @@
   <script src="index.js" type="module"></script>
   <script src="https://kit.fontawesome.com/c8595f672e.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
