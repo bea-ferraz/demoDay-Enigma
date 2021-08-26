@@ -3,12 +3,12 @@
 
 * {
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
   box-sizing: border-box;
+  font-family: Gill Sans, sans-serif;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   font-size: 16px;
   text-align: justify;
 }
@@ -17,114 +17,203 @@ body {
   width: 100%;
   height: 650px;
   object-fit: cover;
-  /* filter: brightness(80%); */
+  filter: brightness(80%);
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.875rem;
+  background-color: #867d81;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #0c2345;;
+  text-decoration-thickness: 5px;
+  font-family: Gill Sans, sans-serif;
+  margin-bottom: 1rem;
+  background-color: #adbdbe;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 4rem;
+  text-align: center;<
+}
+
+#titulo {
+  background-color: #fff; 
+  font-family: Gill Sans, sans-serif;
+  color: #0c2345;
+  font-size: 4 rem;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  font-size: 2rem;
+  background-color:#adbdbe;
+  color: #0c2345;
+}
+.convite{
+  font:  #18606f;
+  text-align: center ;
+  font-size: 1,3rem;
+
+}
+
+.container-sobre {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+.description {
+  font-size: 3rem;
+  font-family: 'Andika New Basic', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#li {
+  list-style-type: disc;
+  margin-right: 20px;
+}
+
+#ajuda { 
+  background-color: #d89494;
+  margin: 0px; 
+  padding: 0px;
+}
+
+.fontSize3 {
+  font-size: 2rem;
+  color: #0c2345;
+}
+
+.question {
+border-bottom: 1px solid #ccc;
+padding: 10px 0
+}
+
+.question input,
+.question .answer { display: none }
+
+.question label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%
+}
+
+.question input:checked ~ .answer {
+  display: block
+}
+
+#ajuda {
+  background-color: #d89494;
+  margin: 0px; 
+  padding: 0px;
+}
+
+.menuLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0c2345;
+}
+
+.menuLink:hover {
+color:#8f6863;
+}
+
+.container-sobre {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
 }
 
 #intro {
   position: absolute;
-  top: 555px;
+  top: 640px;
   color:aliceblue;
   text-align: center;
   font-weight: 700;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: sans-serif;
   display: flex;
   justify-content: center ;
   flex-wrap: wrap;
-  background-color: rgb(43, 42, 42);
+  background-color: rgba(43, 42, 42, 0);
   width: 80%;
-
-  font-size: 5rem;
-  font-family: 'Darker Grotesque', sans-serif;
-  letter-spacing: 3px;
-  line-height: 5rem;
-  padding: 10px;
-  height: 200px;
-  
 }
 
-.slideShow {
-  position: relative;
-  margin-bottom: 150px;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8f6863;
+  color: black;
+  text-align: center;
 }
 
-
-
-
-
-@media (min-width: 360px) {
-
-  h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.875rem;
-    background-color: #867d81;
-  }
-
-  h2 {
-    margin-top: 2rem;
-    font-size: 4rem;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 115, 0);
-    text-decoration-thickness: 5px;
-  }
-
-  #titulo {
-    background-image: linear-gradient(to left, rgb(231, 51, 150), rgb(248, 230, 127));
-  }
-
-  #menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: sans-serif;
-    font-size: 1.875rem;
-    background-color: rgb(248, 230, 127);
-  }
-
-  .container-sobre {
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #fff;
-  }
-
-  .description {
-    font-size: 3rem;
-    font-family: 'Andika New Basic', sans-serif;
-    background-color: #bbf0f3;
-    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
-    border-radius: 10px;
-  }
-
- #ajuda { 
-   background-color: #d89494;
-   margin: 0px; 
-   padding: 0px;
- }
-
- h3 {
-   font-size: 4rem;
- }
-    
-  p {
-    font-size: 2.5rem;
-  }
-
-  li {
-    font-size: 2.5rem;
-  }
-
-  a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-  }
-
-  a:hover {
-  color:rgb(247, 8, 8);
-  }
-
-
+.contato-equipe {
+  display: inline-flex;
+  margin-left: 20px;
 }
+
+.socialMedia {
+  display: inline-flex;
+  text-decoration: no;
+  text-align: center;
+  margin: -12px;
+  color: #ffff;
+  padding: 14px 16px;
+}
+
+textarea, input {
+  width: 60%;
+  height: 4rem;
+  border-radius: 5px;
+  border: 3px solid #0c2345;
+  margin: 1rem auto;
+  font-size: 2rem;
+  background-color: #adbdbe;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btnCreatePassword {
+  width: 350px;
+  height: 5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #18606f;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: #adbdbe;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+#decrypt {
+  background-color: #9a857d;
+  font-color: black;
+}
+
 
 
 .color1 {color: #8f6863;}
@@ -133,7 +222,7 @@ body {
 .color4 {color: #18606f;}
 .color5 {color: #adbdbe;}
 
-ont-family: 'Inter', sans-serif;
+font-family: 'Inter', sans-serif;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 #menu - font-family: sans-serif; 
 Tauana Pacheco
