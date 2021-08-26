@@ -125,8 +125,8 @@ padding: 10px 0
   display: block
 }
 
-#ajuda {
-  background-color: #d89494;
+#ajuda { 
+  background: linear-gradient(to top, #959797, #adbdbe, #fff);
   margin: 0px; 
   padding: 0px;
 }
@@ -164,8 +164,6 @@ color:#8f6863;
   flex-wrap: wrap;
   background-color: rgba(43, 42, 42, 0);
   width: 80%;
-}
-
 }
 
 .introTwo {
