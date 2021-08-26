@@ -11,40 +11,67 @@
     />
   </head>
 
-  <body>
-    <header>
-      <h1 id="titulo">NOME DE SITE</h1>
-      <nav id="menu">
-        <a href="#sobre">Sobre</a>
-        <a href="#dicas">Dicas</a>
-        <a href="#faça-sua-senha">Faça sua senha</a>
-        <a href="#ajuda">Ajuda</a>
-      </nav>
-    </header>
-    <script src="index.js" type="module"></script>
+ <body>
+   <header>
+    <h1 id="titulo">NOME DE SITE</h1>
+    <nav id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#faça-sua-senha">Faça sua senha</a>
+      <a href="#ajuda">Ajuda</a>
+    </nav>
+  </header>
+  <section>
+    <img class="mySlides" src="Image/Image1.jpeg">
+    <img class="mySlides" src="Image/Image2.jpeg">
+    <img class="mySlides" src="Image/Image3.jpeg">
+    <img class="mySlides" src="Image/Image5.jpeg">
+    <img class="mySlides" src="Image/Image6.jpeg">
+    <img class="mySlides" src="Image/Image7.jpeg">
+    <img class="mySlides" src="Image/Image8.jpeg">
+    <img class="mySlides" src="Image/Image9.jpeg">
 
+    <div id="intro">
+      <p class="para"> Sua senha com </p>
+      <p class="para"> facilidade e segurança </p>
+    </div>
+
+    <div>
+      <p></p>
+      <button type="button"></button>
+    </div>
+  </section>
   
-  <section id="sobre">
-    <h2> SOBRE </h2>
-    <p>No mundo tecnológico em que vivemos, criar senhas seguras é fundamental para proteger seus dados . Mas nem sempre
-      conseguimos ser tão criativos , não é mesmo? Foi pensando nisso que criamos o SenhaFácil , um sistema de
-      criptografia baseado na Cifra de César , que tem como público alvo pessoas da melhor idade e visa atender essa
-      necessidade de criar senhas originais de forma rápida e fácil!</p>
+  <section>
+    <h2 id="sobre"> SOBRE </h2>
+    <div class="container-sobre">
+      <p class="description">No mundo tecnológico em que vivemos, criar senhas seguras é fundamental para proteger seus
+        dados. Mas nem sempre
+        conseguimos ser tão criativos, não é mesmo? Foi pensando nisso que criamos o __________, um sistema de
+        criptografia que tem como público alvo pessoas da melhor idade e visa atender essa
+        necessidade de criar senhas originais de forma rápida e fácil!</p>
+    </div>
   </section>
 
   <section id="dicas">
-    <h2> DICAS DE SEGURANÇA </h2>
-      <ul>
-        <li>Nunca compartilhe sua senha com ninguém;
-        <li>Evite senhas comuns e óbvias. Exemplos: 123456, senha, 111111;
-        <li>Não use dados pessoais como: nomes, datas de nascimento, endereço, etc;
-        <li>O ideal é que sua senha contenha letras, números e caracteres especiais;
-        <li>Escreva uma frase que só o/a senhor(a) sabe;
-        <li>Não esqueça do numero de chave que escolher;
-        <li>Não passe seu numero de chave para ninguém;
-        <li>Salve sua senha e não passe para ninguém.
-      </ul>
-  </section >
+    <h2>DICAS DE SEGURANÇA</h2>
+    <ul>
+      <li>Nunca compartilhe sua senha com ninguém;</li>
+      <li>Evite senhas comuns e óbvias. Exemplos: 123456, senha, 111111;</li>
+      <li>
+        Não use dados pessoais como: nomes, datas de nascimento, endereço,
+        etc;
+      </li>
+      <li>
+        O ideal é que sua senha contenha letras, números e caracteres
+        especiais;
+      </li>
+      <li>Escreva uma frase que só o/a senhor(a) sabe;</li>
+      <li>Não esqueça do numero de chave que escolher;</li>
+      <li>Não passe seu numero de chave para ninguém;</li>
+      <li>Salve sua senha e não passe para ninguém.</li>
+    </ul>
+  </section>
 
   <div id="faça-sua-senha">
     <h2> FAÇA SUA SENHA </h2>
@@ -54,8 +81,8 @@
     <p> 4º - Aparecerá um código em letras criptografadas. </p>
 
     <p>O senhor(a) poderá usar esse código criptografado como senha para qualquer coisa.
-    Caso o/a senhor(a) esqueça a mensagem escrita antes de criptografar, coloque o código criptografado no campo
-    criptografar, escolha o mesmo deslocamento escolhido anteriormente e aparecerá a mensagem.</p>
+      Caso o/a senhor(a) esqueça a mensagem escrita antes de criptografar, coloque o código criptografado no campo
+      criptografar, escolha o mesmo deslocamento escolhido anteriormente e aparecerá a mensagem.</p>
 
     <form>
       <div class="palavra-escolhida">
@@ -75,23 +102,41 @@
       </div>
 
       <section id="ajuda">
-        <h3>Ajuda</h3>
-        <p>Perguntas Frequentes</p>
-        <ul>
+        <h2>Ajuda</h2>
+        <h3>Perguntas Frequentes</h3>
+        <!-- circle, square, disc -->
+        <ul type="disc">
           <li>É seguro?</li>
+          <p>
+            Sim é seguro, o objetivo do nosso site é que você tenha acesso
+            seguro e individual para gerar suas senhas personalizadas e
+            utilizá-las simultaneamente.
+          </p>
           <li>Consigo recuperar a minha senha caso eu perca?</li>
+          <p>
+            Não, o intuito do nosso sistema é para que os nossos usuários
+            possam gerar sua senha criptografada sem precisar armazenar as
+            informações no nosso site.
+          </p>
           <li>Posso gerar mais de uma senha?</li>
+          <p>sim, você pode gerar quantas senhas preferir.</p>
           <li>Para que serve a criptografia?</li>
+          <p>
+            A criptografia tem dois propósitos principais o primeiro é impedir
+            que dados armazenados sejam lidos e permitir que dados sejam
+            transmitidos de forma segura por um canal inseguro.
+          </p>
           <li>Como posso codificar e descodificar?</li>
+          <p>
+            Você pode codificar uma mensagem simplesmente trocando cada letra
+            da mensagem presente no alfabeto padrão pela sua equivalente no
+            alfabeto cifrado. A decodificação é justamento o processo inverso.
+          </p>
         </ul>
       </section>
     </form>
-
   </div>
-
-
 
   <script src="index.js" type="module"></script>
 </body>
-
 </html>
