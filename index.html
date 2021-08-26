@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="titulo">NOME DE SITE</h1>
+      <nav id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#faça-sua-senha">Faça sua senha</a>
+        <a href="#ajuda">Ajuda</a>
+      </nav>
+    </header>
+    <script src="index.js" type="module"></script>
+
+  
+  <section id="sobre">
+    <h2> SOBRE </h2>
+    <p>No mundo tecnológico em que vivemos, criar senhas seguras é fundamental para proteger seus dados . Mas nem sempre
+      conseguimos ser tão criativos , não é mesmo? Foi pensando nisso que criamos o SenhaFácil , um sistema de
+      criptografia baseado na Cifra de César , que tem como público alvo pessoas da melhor idade e visa atender essa
+      necessidade de criar senhas originais de forma rápida e fácil!</p>
+  </section>
+
+  <section id="dicas">
+    <h2> DICAS DE SEGURANÇA </h2>
+      <ul>
+        <li>Nunca compartilhe sua senha com ninguém;
+        <li>Evite senhas comuns e óbvias. Exemplos: 123456, senha, 111111;
+        <li>Não use dados pessoais como: nomes, datas de nascimento, endereço, etc;
+        <li>O ideal é que sua senha contenha letras, números e caracteres especiais;
+        <li>Escreva uma frase que só o/a senhor(a) sabe;
+        <li>Não esqueça do numero de chave que escolher;
+        <li>Não passe seu numero de chave para ninguém;
+        <li>Salve sua senha e não passe para ninguém.
+      </ul>
+  </section >
+
+  <div id="faça-sua-senha">
+    <h2> FAÇA SUA SENHA </h2>
+    <p> 1º - Escreva uma mensagem/palavra; </p>
+    <p> 2º - Escolha um numero de chave; (perguntas frequentes) </p>
+    <p> 3º - Clique em criptografar; </p>
+    <p> 4º - Aparecerá um código em letras criptografadas. </p>
+
+    <p>O senhor(a) poderá usar esse código criptografado como senha para qualquer coisa.
+    Caso o/a senhor(a) esqueça a mensagem escrita antes de criptografar, coloque o código criptografado no campo
+    criptografar, escolha o mesmo deslocamento escolhido anteriormente e aparecerá a mensagem.</p>
+
+    <form>
+      <div class="palavra-escolhida">
+        <textarea id="cod" name="cipher" type="text" class="formField"
+          placeholder="Insira a mensagem escolhida"></textarea>
+      </div>
+      <div class="deslocamento">
+        <input id="offset" type="number" class="formField" name="offset" placeholder="Nº de deslocamento">
+      </div>
+      <div class="senha-facil">
+        <textarea id="encod" name="cipher" class="formField" type="text" placeholder="Senha criptografada"></textarea>
+      </div>
+
+      <div class="botoes">
+        <button id="crypt" type="submit" onclick="encode()">Criptografar</button>
+        <button id="decrypt" type="submit" onclick="decode()">Descriptografar</button>
+      </div>
+
+      <section id="ajuda">
+        <h3>Ajuda</h3>
+        <p>Perguntas Frequentes</p>
+        <ul>
+          <li>É seguro?</li>
+          <li>Consigo recuperar a minha senha caso eu perca?</li>
+          <li>Posso gerar mais de uma senha?</li>
+          <li>Para que serve a criptografia?</li>
+          <li>Como posso codificar e descodificar?</li>
+        </ul>
+      </section>
+    </form>
+
+  </div>
+
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
