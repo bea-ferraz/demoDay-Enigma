@@ -3,7 +3,7 @@
 
 * {
   margin: 0;
-  /*padding: 0;*/
+  /*padding: 2;*/
   box-sizing: border-box;
   font-family: Gill Sans, sans-serif;
 }
@@ -61,9 +61,9 @@ h3 {
   color: #0c2345;
 }
 .convite{
-  font:  #18606f;
+  font: #18606f;
   text-align: center ;
-  font-size: 1,3rem;
+  font-size: 2rem;
 
 }
 
