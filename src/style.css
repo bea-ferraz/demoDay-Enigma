@@ -4,13 +4,14 @@
 
 * {
   margin: 0;
-  padding: 0;
+  /*padding: 2;*/
   box-sizing: border-box;
+  font-family: Gill Sans, sans-serif;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   font-size: 16px;
+  text-align: justify;
 }
 
 .mySlides {
@@ -30,10 +31,25 @@ h2 {
   margin-top: 2rem;
   font-size: 4rem;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #0c2345;;
+  text-decoration-thickness: 5px;
+  font-family: Gill Sans, sans-serif;
+  margin-bottom: 1rem;
+  background-color: #adbdbe;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 4rem;
+  text-align: center;
 }
 
 #titulo {
-  background-image: linear-gradient(to left, rgb(231, 51, 150), rgb(248, 230, 127));
+  background-color: #fff; 
+  font-family: Gill Sans, sans-serif;
+  color: #0c2345;
+  font-size: 6rem;
 }
 
 #menu {
@@ -41,8 +57,15 @@ h2 {
   align-items: center;
   justify-content: space-evenly;
   font-family: sans-serif;
-  font-size: 1.875rem;
-  background-color: rgb(248, 230, 127);
+  font-size: 2rem;
+  background-color:#adbdbe;
+  color: #0c2345;
+}
+.convite{
+  font: #18606f;
+  text-align: center ;
+  font-size: 2rem;
+
 }
 
 .container-sobre {
@@ -54,22 +77,24 @@ h2 {
 .description {
   font-size: 3rem;
   font-family: 'Andika New Basic', sans-serif;
-  background-color: #bbf0f3;
-  background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+  background-color: white;
   border-radius: 10px;
 }
 
-.color1 {color: #8f6863;}
-.color2 {color: #9a857d;}
-.color3 {color: #0c2345;}
-.color4 {color: #18606f;}
-.color5 {color: #adbdbe;}
+#li {
+  list-style-type: disc;
+  margin-right: 20px;
+}
 
-
-#ajuda { 
-  background: linear-gradient(to top, #959797, #adbdbe, #fff);
+/* #ajuda { 
+  background-color: #d89494;
   margin: 0px; 
   padding: 0px;
+} */
+
+.fontSize3 {
+  font-size: 2rem;
+  color: #0c2345;
 }
 
 .titleHelp {
@@ -78,14 +103,6 @@ h2 {
 
 .titleHelp, .titleQuentions, .question {
   color: #0c2345;
-}
-
-h3 {
-  font-size: 4rem;
-}
-
-p {
-font-size: 3rem;
 }
 
 .question {
@@ -108,50 +125,26 @@ padding: 10px 0
   display: block
 }
 
+#ajuda { 
+  background: linear-gradient(to top, #959797, #adbdbe, #fff);
+  margin: 0px; 
+  padding: 0px;
+}
+
+.menuLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0c2345;
+}
+
+.menuLink:hover {
+color:#8f6863;
+}
+
 .answer {
   font-size: 24px;
 }
 
-h2 {
-  margin-top: 2rem;
-  font-size: 4rem;
-  text-align: center;
-}
-
-#titulo {
-  background-image: linear-gradient(to left, rgb(231, 51, 150), rgb(248, 230, 127));
-}
-
-#menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-family: sans-serif;
-  font-size: 1.875rem;
-  background-color: rgb(248, 230, 127);
-}
-
-h3 {
-  font-size: 2rem;
-}
-    
-  p {
-    font-size: 1.75rem;
-  }
-
-  li {
-    font-size: 1.5rem;
-  }
-
-  .menuLink {
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-  }
-
-  .menuLink:hover {
-  color:rgb(247, 8, 8);
-  }
 
 .container-sobre {
   margin-left: 15px;
@@ -159,12 +152,18 @@ h3 {
   background-color: #fff;
 }
 
-.description {
-  font-size: 3rem;
-  font-family: 'Andika New Basic', sans-serif;
-  background-color: #bbf0f3;
-  background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
-  border-radius: 10px;
+#intro {
+  position: absolute;
+  top: 640px;
+  color:aliceblue;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center ;
+  flex-wrap: wrap;
+  background-color: rgba(43, 42, 42, 0);
+  width: 80%;
 }
 
 .introTwo {
@@ -180,13 +179,7 @@ h3 {
   width: 80%;
 }
 
-.para {
-  font-size: 5rem;
-  font-family: 'Darker Grotesque', sans-serif;
-  letter-spacing: 3px;
-  line-height: 5rem;
-  /* background-color: rgb(0, 0, 0, 0.5); */
-}
+
 
 .footer {
   left: 0;
@@ -211,16 +204,65 @@ h3 {
   padding: 14px 16px;
 }
 
-/* .coluna{
-  float: left;
-  width: 50%;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+textarea, input {
+  width: 60%;
+  height: 4rem;
+  border-radius: 5px;
+  border: 3px solid #0c2345;
+  margin: 1rem auto;
+  font-size: 2rem;
+  background-color: #adbdbe;
 }
 
-.test {
-  height: 870px;
-} */
+.botoes {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btnCreatePassword {
+  width: 350px;
+  height: 5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #18606f;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: #adbdbe;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+#decrypt {
+  background-color: #9a857d;
+  color: black;
+}
+
+
+
+
+
+
+
+.color1 {color: #8f6863;}
+.color2 {color: #9a857d;}
+.color3 {color: #0c2345;}
+.color4 {color: #18606f;}
+.color5 {color: #adbdbe;}
+
+font-family: 'Inter', sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#menu - font-family: sans-serif; 
+Tauana Pacheco
+10:23
+description - font-family: 'Andika New Basic', sans-serif; 
+font-family: 'Darker Grotesque', sans-serif;
+
+Squad 1 - Enigma; Squad 2 - Clube das 5; Squad 3 - Ada Girls; Squad 4 - Manda Jobs; Squad 5 - Amazing Grace; Squad 6 - Artemis; Squad 7 - <div Delas>; Squad 8 - ${Girls Code}; Squad 9 - 6 dev{as} e 1 código 
+=======
