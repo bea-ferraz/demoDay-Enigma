@@ -6,11 +6,14 @@
 
 ## 📑 Índice
 - [1. O produto](#1-produto)
-- [2. Nosso Objetivo](#2-objetivo)
-- [3. Experiência do Usuário](#3-Experiência)
-- [4. Layout](#4-layout)
-- [5. Melhorias Futuras](#8-melhorias)
-- [6. Autoras](#9-autoras)
+- [2. O Desafio](#2-desafio)
+- [3. Nosso Objetivo](#3-Objetivo)
+- [4. Experiência do Usuário](#4-Experiência)
+- [5. Paleta de Cores](#5-cores)
+- [6. Protótipos](#6-prototipo)
+- [7. Objetivos de aprendizagem](#7-aprendizagem)
+- [8. Melhorias Futuras](#8-melhorias)
+- [9. Autoras](#9-autoras)
 
 ## 🌍 1. O PRODUTO
 O  safe é uma plataforma para atender o publico da terceira idade na geração de senhas seguras e criptografadas.
@@ -35,7 +38,7 @@ Para isso, priorizamos as tarefas e criamos um MVP focado nas funcionalidades da
 
 ![Funcionalidades Principais](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Nosso_objetivo_rqy2J11m1.jpeg?updatedAt=1636589366803)
 
-## 💺 3. EXPERIÊNCIA DO USUÁRIO
+## 💺 4. EXPERIÊNCIA DO USUÁRIO
 Utilizamos o **FORMS** para criar um formulário onde questionamos as principais funcionalidades que utilizam, se sente alguma dificuldade no portal se gostariam de acessar a plataforma por outros dispositivos.
 
 ![Form de Pesquisa](https://ik.imagekit.io/bga7odqg1yl/New_Folder/Pesquisas_XoCNZVKrr?updatedAt=1638232374370)
@@ -48,18 +51,18 @@ Utilizamos o **FORMS** para criar um formulário onde questionamos as principais
 - _mobile First._
 
 
-### 🎨 4. Paleta de Cores
+### 🎨 5. Paleta de Cores
 As cores do layout foram definifas através da pesquisa de úsuario.
 
 ![Paleta de Cores](https://ik.imagekit.io/bga7odqg1yl/New_Folder/paletadecor_esQHxlwTdU7.png?updatedAt=1638235107378)
 
 
-## 🎯 Protótipos:
+## 🎯 6. Protótipos:
 Os protótipos foram pensandos para facilitar a navegação e em trazer uma resposta rápida na busca por informações. Eles foram melhorados, testados e validados, sempre buscando a melhor USABILIDADE!
 
 ![Página Home e Chat](https://ik.imagekit.io/bga7odqg1yl/New_Folder/Squad_1_Enigma_1_.pdf_IxxrnTrSA2T.png?updatedAt=1638234147030)
 
-## Objetivos de aprendizagem
+## 7. Objetivos de aprendizagem
 
 Neste projeto construimos uma aplicação web (_WebApp_) que irá
 interagir com o usuário final através do navegador utilizando HTML, CSS e
@@ -106,14 +109,14 @@ JavaScript como ferramentas.
 * [ ] Criar protótipos para obter feedback e iterar.
 * [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
-## 🚧 5. MELHORIAS FUTURAS:
+## 🚧 8. MELHORIAS FUTURAS:
 - _Implementação de hand talk;_
 - _Implementação de busca por voz;_
 - _Implementação de inteligencia artificial;_
 - _Mobile;_
 
 
-## 👩‍💻 6. AUTORAS:
+## 👩‍💻 9. AUTORAS:
 <h2 align="center">
  <p> SQUAD ENIGMA.</p>
         <img align="center" alt="Beatriz" height="200" width="200" src="https://ik.imagekit.io/bga7odqg1yl/New_Folder/Participantes_7bv_az4VRsm.png?updatedAt=1638232362171">
