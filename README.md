@@ -1,7 +1,7 @@
 <img align="center" alt="Heroku" height="300" width="900" src="https://ik.imagekit.io/bga7odqg1yl/New_Folder/cyber_security__R6MWsBQmO.png?updatedAt=1638232072151">
 
 
-<h2 align="center">Projeto desenvolvido durante o hackaton Demo Day Laboratoria 2021</h2>
+<h2 align="center">Hackaton Demo Day Laboratoria 2021</h2>
 <h3 align="center">Para acessar a aplicação, clique <a href="https://paulinefreitas.github.io/demoDay-Enigma/src/index.html" target="_blank" style="color:#CBEA00" title="Clique aqui!">Aqui ✅.</a></h3>
 
 ## 📑 Índice
@@ -17,11 +17,12 @@
 
 ## 🌍 1. O PRODUTO
 O  safe é uma plataforma para atender o publico da terceira idade na geração de senhas seguras e criptografadas.
+![Form de Pesquisa](Site-safe.gif)
 
-![Metas](https://ik.imagekit.io/bga7odqg1yl/New_Folder/PROJETO_UpLipbx1C.jpg?updatedAt=1638232927716)
 
 ## 🌍 2. O DESAFIO
 Nosso DESAFIO foi repaginar o portal safe, deixando o mesmo com um visual mais agradável, mais funcional e intuitivo para que os USUÁRIOS possam ter uma experiência inspiradora e em diversos tamanhos de tela. Para o sucesso do nosso DESAFIO concentramos nosso foco em UX/UI Design e logica de programação!!
+![Metas](https://ik.imagekit.io/bga7odqg1yl/New_Folder/PROJETO_UpLipbx1C.jpg?updatedAt=1638232927716)
 
 
 
@@ -119,7 +120,13 @@ JavaScript como ferramentas.
 ## 👩‍💻 9. AUTORAS:
 <h2 align="center">
  <p> SQUAD ENIGMA.</p>
-        <img align="center" alt="Beatriz" height="200" width="200" src="https://ik.imagekit.io/bga7odqg1yl/New_Folder/Participantes_7bv_az4VRsm.png?updatedAt=1638232362171">
-      </a>
+ https://github.com/bea-ferraz -
+ https://github.com/Tauana-Pacheco -
+ https://github.com/Julieteandrade -
+ https://github.com/Paulinefreitas -
+ https://github.com/yukaum -
+ https://github.com/LethsOliveira -
+ https://github.com/RafaelaCugini
+  
 </div>
 
